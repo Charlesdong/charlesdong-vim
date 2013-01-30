@@ -2,7 +2,7 @@
 hi you
 
 *vim-ex-tip*
-find all line with ".com" and get <xx.com>
-:%g/.com/p|s/^/>
-:%g/.com/p|s/$/>
+find all line with ".dom" and get <xx.dom>
+:%g/.dom/p|s/^/>
+:%g/.dom/p|s/$/>
 

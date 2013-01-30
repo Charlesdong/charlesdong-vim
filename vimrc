@@ -13,6 +13,8 @@ ia xdate <c-r>=strftime("%d/%m/%y %H:%M:%S")<cr>
 map ,cc :botright cope<cr>
 map ,cn :cn<cr>
 map ,cp :cp<cr>
+iabbrev pdb import pdb;pdb.set_trace()
+imap <c-d> <esc>ddi
 
 """"""""""""""""""""""""""""""""""""""""
 "
@@ -174,7 +176,8 @@ map ,f :q!<CR>
 """"""""""""""""""""""""""""""""""""""""
 " I need a fake ~/.vimrc: runtime vimrc
 " http://www.derekwyatt.org/vim/the-vimrc-file/my-vimrc-file/
-map ,e :e ~/.vim/vimrc<CR>
+"map ,e :e ~/.vim/vimrc<CR>
+nmap ,e :e ~/trunk/globalsn/cepiec/templates/
 " When vimrc is edited, reload it
 " copied from http://amix.dk/vim/vimrc.html
 autocmd! bufwritepost vimrc source ~/.vim/vimrc

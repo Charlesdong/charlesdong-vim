@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/charles/Ubuntu One'
+let g:netrw_dirhist_2='/home/charles/Ubuntu One/dongfanliang1989'
+let g:netrw_dirhist_3='/home/charles/Ubuntu One/dongfanliang1989/app'
+let g:netrw_dirhist_4='/home/charles/Ubuntu One/trunk/appengine_django'
+let g:netrw_dirhist_5='/usr/local/lib/python2.7/dist-packages/django'
